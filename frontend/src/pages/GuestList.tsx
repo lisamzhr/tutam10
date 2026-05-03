@@ -31,7 +31,7 @@ export function GuestList() {
       {/* Header */}
       <div className="max-w-4xl mx-auto mb-16">
         <p className="text-zinc-600 text-[10px] tracking-[0.35em] uppercase mb-3">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
         <div className="flex items-end justify-between">
           <h1 className="text-5xl font-extralight tracking-tight">Guest List</h1>

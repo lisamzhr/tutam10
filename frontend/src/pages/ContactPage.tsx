@@ -102,7 +102,7 @@ export function ContactPage() {
 
         {/* Footer */}
         <p className="text-zinc-800 text-[10px] tracking-widest text-center uppercase pt-8">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
       </div>
     </div>

@@ -95,7 +95,7 @@ export function LandingPage() {
       <div className="px-6 py-24 max-w-4xl mx-auto">
         <div className="grid md:grid-cols-3 gap-10 mb-24 text-center">
           {[
-            { icon: Calendar, label: "Date", value: "15 May 2026", sub: "Friday" },
+            { icon: Calendar, label: "Date", value: "12 September 2026", sub: "Friday" },
             { icon: Clock, label: "Time", value: "18:00 WIB", sub: "Until late" },
             { icon: MapPin, label: "Location", value: "Grand Ballroom", sub: "Sunset Hotel, Jakarta" },
           ].map(({ icon: Icon, label, value, sub }) => (

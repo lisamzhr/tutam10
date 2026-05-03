@@ -91,7 +91,7 @@ export function SuccessPage() {
 
           <div className="border border-t-0 border-zinc-900 px-5 py-4">
             <p className="text-zinc-700 text-xs font-light leading-relaxed">
-              We're glad you can make it. See you on 15 May 2026.
+              We're glad you can make it. See you on 12 September 2026.
             </p>
           </div>
         </div>
@@ -113,7 +113,7 @@ export function SuccessPage() {
         </div>
 
         <p className="text-zinc-800 text-[10px] tracking-widest text-center uppercase mt-10">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
       </div>
 

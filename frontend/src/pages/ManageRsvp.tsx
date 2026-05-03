@@ -151,7 +151,7 @@ export function ManageRsvp() {
         )}
 
         <p className="text-zinc-800 text-[10px] tracking-widest text-center uppercase mt-12">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
       </div>
 

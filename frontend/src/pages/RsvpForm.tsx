@@ -112,7 +112,7 @@ export function RsvpForm() {
       {/* Header */}
       <div className="max-w-xl mx-auto mb-14">
         <p className="text-zinc-600 text-[10px] tracking-[0.35em] uppercase mb-3">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
         <h1 className="text-5xl font-extralight tracking-tight">RSVP</h1>
         <div className="mt-5 h-px bg-zinc-900" />
@@ -378,7 +378,7 @@ export function RsvpForm() {
         )}
 
         <p className="text-zinc-800 text-[10px] tracking-widest text-center uppercase mt-12">
-          Khalisa · 15 May 2026
+          Khalisa · 12 September 2026
         </p>
       </div>
 
