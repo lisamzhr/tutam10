@@ -9,7 +9,13 @@ const PORT = process.env.PORT || 5000;
 
 connectDB();
 
-app.use(cors({ origin: process.env.CLIENT_URL }));
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://tutam10-rcwn.vercel.app",
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 
 app.use("/api/tamu", tamuRoutes);
