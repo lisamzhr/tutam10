@@ -1,20 +1,7 @@
 import { useEffect, useState } from "react";
+import { Users, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router";
-import { Users, MessageSquare, ArrowRight } from "lucide-react";
 import { getGuestList, Tamu } from "../services/api";
-
-const AVATAR_IMAGES = [
-  "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80",
-  "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80",
-  "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=80",
-  "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&q=80",
-  "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=100&q=80",
-  "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&q=80",
-];
-
-function getInitials(name: string) {
-  return name.split(" ").map((n) => n[0]).join("").toUpperCase().slice(0, 2);
-}
 
 function formatDate(dateStr: string) {
   return new Date(dateStr).toLocaleDateString("en-GB", {
@@ -130,7 +117,7 @@ export function GuestList() {
                 <p className="col-span-1 text-zinc-700 text-xs tabular-nums font-light pt-0.5">
                   {String(i + 1).padStart(2, "0")}
                 </p>
-                        
+
                 {/* Name + Message */}
                 <div className="col-span-5">
                   <p className="text-white text-sm font-light">{guest.nama}</p>

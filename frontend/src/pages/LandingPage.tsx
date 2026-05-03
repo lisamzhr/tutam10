@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Calendar, MapPin, Clock } from "lucide-react";
 
+  const birthdayDate = new Date("2026-05-15T18:00:00");
+
 export function LandingPage() {
   const navigate = useNavigate();
   const [timeLeft, setTimeLeft] = useState({
     days: 0, hours: 0, minutes: 0, seconds: 0,
   });
-
-  const birthdayDate = new Date("2026-05-15T18:00:00");
-
   useEffect(() => {
     const calculate = () => {
       const diff = birthdayDate.getTime() - new Date().getTime();
@@ -136,6 +135,7 @@ export function LandingPage() {
           <div key={i} className="aspect-square rounded-2xl overflow-hidden">
             <img
               src={src}
+              alt=""  // ← tambah ini
               className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-700"
             />
           </div>

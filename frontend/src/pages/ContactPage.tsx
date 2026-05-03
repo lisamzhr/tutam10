@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router";
 import { MapPin, Phone, MessageCircle, Navigation } from "lucide-react";
 
 export function ContactPage() {
-  const navigate = useNavigate();
 
   const phoneNumber = "+6285947600020";
   const whatsappMessage = "Halo, saya ingin bertanya tentang acara ulang tahun";
