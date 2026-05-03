@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Calendar, MapPin, Clock } from "lucide-react";
 
-  const birthdayDate = new Date("2026-05-15T18:00:00");
+  const birthdayDate = new Date("2026-09-12T18:00:00");
 
 export function LandingPage() {
   const navigate = useNavigate();
